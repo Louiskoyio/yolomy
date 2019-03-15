@@ -1,0 +1,254 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+
+}
+.container{
+	width:55%;
+	height:80%;
+
+}
+.item:hover{
+	border:5px solid #cec9a7;
+	
+}
+img{
+	width:100%;
+}
+.categories{
+	background:#cec9a7;
+	padding:50px;
+	text-transform:uppercase;
+	font-weight:bold;
+
+}
+
+ul{
+ list-style-type: none;
+}
+li{
+	float: right;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  color: #cec9a7;
+  text-decoration: none;
+}
+
+
+.navbar{
+		z-index:1000;
+		position:absolute;
+		padding:40px;
+
+}
+
+.navbar a{
+	text-decoration:none;
+	color:white;
+	font-size:18px;
+}
+
+
+
+.header{
+	position:relative;
+	z-index:100;
+	background-image: url("assets/backgrounds/hero.jpg");
+	height: 88%;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	color:white;
+  	font-size:25px;
+  	margin:0;
+}
+.header-text{
+	padding-top:5%;
+
+	text-align:center;
+}
+.header-text h1{
+	font-size:45px;
+}
+.header-text p{
+	font-size:18px;
+}
+.header-text span{
+	margin:150px 0px 0px 0px;
+	font-size:35px;
+}
+.button {
+	float:right;
+	margin-top:-15px;
+  	background-color: #681205;
+ 	border: none;
+ 	border-radius:4px;
+  	color: white;
+  	text-transform:uppercase;
+  	padding: 15px 30px;
+  	text-align: center;
+  	text-decoration: none;
+  	font-size:10px;
+  	letter-spacing: 2px;
+  
+  	
+}
+input{
+	padding: 15px 30px;
+}
+
+.products{
+	padding:50px;
+}
+.item{
+	background-color:#efeded;
+	width:250px;
+	height:320px;
+	padding:15px;
+	text-transform:uppercase;
+	font-size:15px;
+	margin:50px;
+
+
+}
+.item img{
+	width:220px;
+	height:250px;
+	padding:20px;
+
+}
+.product-name{
+	float:left;
+	color:#cec9a7;
+	font-weight:bold;
+}
+.product-price{
+	float:right;
+	font-weight:bold;
+	font-size:18px;
+}
+.product-size{
+	
+	font-weight:bold;
+}
+.products-category{
+	text-transform:uppercase;
+	font-weight:bold;
+}
+hr{
+	border:10px thin solid;	
+}
+.footer{
+	background-image: url("assets/backgrounds/about.jpg");
+	height: 30%;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	
+  	color:white;
+  	font-size:25px;
+  	text-align:center;
+}
+.footer-text{
+	padding:50 50 0 50;
+	display: inline-block;
+	font-size:14px;
+	width:50%;
+
+
+
+}
+
+.promo-code{
+		display: flex;
+	flex-direction:row;
+	background-color:#565454;
+	padding:10px;
+	text-align:center;
+	color: white;
+}
+.promo-code img{
+	width:20px;
+	height:20px;
+
+}
+
+.contacts{
+	display: flex;
+	flex-direction:row;
+	background-color:#4c4c4c;
+	padding:50px;
+	color: white;
+	padding-bottom:20px;
+}
+.copyright{
+	text-align:center;
+	background-color:#4c4c4c;
+	padding:0px;
+	color: white;
+	padding-bottom:20px;
+}
+.categories ul{
+ list-style-type: none;
+}
+.categories li{
+	float: left;
+	padding-right:70px;
+}
+.page-indicator{
+	float:right;
+	padding-right:50px;
+	font-weight:bold;
+	color: #cec9a7;
+}
+
+.men p{ 
+    overflow: hidden;
+    text-align: left;
+}
+.men p:after{
+    background-color: #cec9a7;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+}
+.men p:after {
+    right: 0.5em;
+    margin-right: -80%;
+}
+
+.women p{ 
+    overflow: hidden;
+    text-align: right;
+}
+.women p:before{
+    background-color: #cec9a7;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+}
+.women p:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
